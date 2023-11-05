@@ -8,9 +8,14 @@
 
 
 #include "generalVector/generalPurposeDynamicArray.c"
+
+
 #include "vector/intVector.c"
+
+
 #include "generalArray/generalArray.c"
 
+#include "genericKDTree/kdTree.c"
 /*  Section for standered Array*/
 
 int * createStanderedNumberArray(int size);
@@ -45,7 +50,18 @@ int freeIntVector(dynamicArrayforInt * vector);
 
 /* This begins the section for Binary Trees */
 
-//Binary Search Tree
+
+Node *initTree(int K);
+
+void insertTree(Point * A, Node *tree, int depth, void *data);
+
+void printNode(Node *node);
+
+void printTree(Node *tree);
+
+void freeTree(Node *tree);
+
+void printTree(Node *tree);
 
 
 
