@@ -6,6 +6,8 @@
 
 #include "../vector/intVector.c"
 
+#include "../random/randomInt.c"
+
 
 typedef dynamicArrayforInt intVector;
 
@@ -57,19 +59,10 @@ int arrayPartitation(int *array, int l, int h, int index) {
 
 }
 
-int generateRandomNumber(int min, int max) {
-    if (min > max) {
-        // Swap min and max if min is greater than max
-        int temp = min;
-        min = max;
-        max = temp;
-    }
 
-    return min + rand() % (max - min + 1);
-}
 //H is the HIGHEST INDEX not the size
 int quickSelect(int *array, int l, int h, int K) {
-    int x = generateRandomNumber(l, h );
+    int x = generateRandomNumberInt(l, h );
 
     int M = arrayPartitation(array, l, h, x);
 
@@ -79,6 +72,45 @@ int quickSelect(int *array, int l, int h, int K) {
 
     return quickSelect(array, l, M, K);
 }
+
+int checkSort(int * array, int l, int h)
+{
+    for (int i = l; i < h - 1; i++)
+    {
+        if (array[i] > array[i + 1]) return 1;
+    }
+
+    return 0;
+}
+
+void quickSort(int * array, int l, int h)
+{
+    if (l >= h) return;
+
+    if (checkSort(array, l, h) == 0) return; //This allows to lower the amount of work.
+
+
+    int K = arrayPartitation(array, l, h, l); // This sets the index to the zeorth.
+
+    quickSort(array, l, K - 1);
+
+    quickSort(array, K + 1, h);
+
+    return;
+
+}
+
+
+int main(void)
+{
+
+    int array[] = {5, 4, 7, 6, 1, 9, 2, 0, 3};
+
+    quickSort(array, 0, 8);
+
+    printArray(array, 9);
+}
+
 
 
 

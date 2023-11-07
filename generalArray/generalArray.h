@@ -9,6 +9,8 @@
 
 int * createStanderedNumberArray(int size);
 
+int * randomArray(int l, int h);
+
 void printArray(int * array, int size);
 
 
