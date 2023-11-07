@@ -33,7 +33,7 @@ int arrayPartitation(int *array, int l, int h, int index) {
    }
 
    int x = l;
-   int curPop = 0;
+   int curPop;
    while (lower->size > 0)
    {
        curPop = popIntVector(lower);
@@ -73,24 +73,12 @@ int quickSelect(int *array, int l, int h, int K) {
     return quickSelect(array, l, M, K);
 }
 
-int checkSort(int * array, int l, int h)
-{
-    for (int i = l; i < h - 1; i++)
-    {
-        if (array[i] > array[i + 1]) return 1;
-    }
-
-    return 0;
-}
-
 void quickSort(int * array, int l, int h)
 {
     if (l >= h) return;
 
-    if (checkSort(array, l, h) == 0) return; //This allows to lower the amount of work.
 
-
-    int K = arrayPartitation(array, l, h, l); // This sets the index to the zeorth.
+    int K = arrayPartitation(array, l, h, h); // This sets the index to the zeorth.
 
     quickSort(array, l, K - 1);
 
@@ -101,15 +89,8 @@ void quickSort(int * array, int l, int h)
 }
 
 
-int main(void)
-{
 
-    int array[] = {5, 4, 7, 6, 1, 9, 2, 0, 3};
 
-    quickSort(array, 0, 8);
-
-    printArray(array, 9);
-}
 
 
 
