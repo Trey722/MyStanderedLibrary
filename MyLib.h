@@ -78,9 +78,16 @@ void printTree(Node *tree);
 
 int arrayPartitation(int *array, int l, int h, int index);
 
-int generateRandomNumber(int min, int max);
 
 int quickSelect(int *array, int l, int h, int K);
+
+/* This begins the random section*/
+
+//Section for Ints
+
+int generateRandomNumberInt(int min, int max);
+
+int * generateRandomArrayofInts(int min, int max, int size);
 
 
 #endif //MYSTANDEREDLIBRARY_MYLIB_H
