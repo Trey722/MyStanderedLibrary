@@ -9,7 +9,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d789ef-5f0b-4908-98e1-b2b8c41048a5" name="Changes" comment="Test1" />
+    <list default="true" id="e6d789ef-5f0b-4908-98e1-b2b8c41048a5" name="Changes" comment="Test1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickAlgos/quickSelect.c" beforeDir="false" afterPath="$PROJECT_DIR$/quickAlgos/quickSelect.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickSelect" beforeDir="false" afterPath="$PROJECT_DIR$/quickSelect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/DWARF/quickSelect" beforeDir="false" afterPath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/DWARF/quickSelect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/Relocations/aarch64/quickSelect.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/Relocations/aarch64/quickSelect.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +122,10 @@
       <workItem from="1699330668657" duration="142000" />
       <workItem from="1699330851192" duration="195000" />
       <workItem from="1699331877049" duration="148000" />
+      <workItem from="1699332136752" duration="2007000" />
+      <workItem from="1699372814862" duration="86000" />
+      <workItem from="1699373826982" duration="207000" />
+      <workItem from="1699379553563" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="Test1">
       <option name="closed" value="true" />
@@ -162,11 +172,6 @@
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/quickAlgos/quickSelect.c</url>
-          <line>53</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -176,6 +181,7 @@
         <watch expression="higher" />
         <watch expression="*lower-&gt;data @ 5" language="ObjectiveC" />
         <watch expression="*higher-&gt;data @ 5" language="ObjectiveC" />
+        <watch expression="*testArray @ 10" />
       </configuration>
     </watches-manager>
   </component>
