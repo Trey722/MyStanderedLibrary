@@ -16,6 +16,8 @@
 #include "generalArray/generalArray.c"
 
 #include "genericKDTree/kdTree.c"
+
+
 /*  Section for standered Array*/
 
 int * createStanderedNumberArray(int size);
@@ -68,6 +70,17 @@ void freeTree(Node *tree);
 
 void printTree(Node *tree);
 
+
+/*  This begins the quick algorithms */
+
+#include "quickAlgos/quickSelect.c"
+
+
+int arrayPartitation(int *array, int l, int h, int index);
+
+int generateRandomNumber(int min, int max);
+
+int quickSelect(int *array, int l, int h, int K);
 
 
 #endif //MYSTANDEREDLIBRARY_MYLIB_H

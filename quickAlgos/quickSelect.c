@@ -82,16 +82,5 @@ int quickSelect(int *array, int l, int h, int K) {
 
 
 
-int main(void) {
-    int array[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
-
-    int a = quickSelect(array, 0, 9, 0);
-
-    printf("%d ", a);
-
-
-    return 0;
-
-}
 
 
