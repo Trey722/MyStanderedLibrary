@@ -89,5 +89,11 @@ int generateRandomNumberInt(int min, int max);
 
 int * generateRandomArrayofInts(int min, int max, int size);
 
+/* Efficent Stats finds */
+
+#include "Stats/medianOfMedians.c"
+
+int * findMedianWithMaxSize5(int * array, int size);
+
 
 #endif //MYSTANDEREDLIBRARY_MYLIB_H

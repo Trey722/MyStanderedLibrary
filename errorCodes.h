@@ -12,4 +12,7 @@ enum {
     UserError
 };
 
+
+int safe_int_derefecing(int * ptr);
+
 #endif //MYSTANDEREDLIBRARY_ERRORCOES_H
