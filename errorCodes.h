@@ -6,13 +6,14 @@
 #define MYSTANDEREDLIBRARY_ERRORCOES_H
 
 enum {
-    Succues,
-    MALLOC_Failed,
-    NULL_Pointer,
-    UserError
+    Succes = 1000,
+    MALLOC_Failed = 2000,
+    NULL_Pointer = 3000,
+    UserError = 4000,
+    PROGRAM_FAILED = 5000
 };
 
 
-int safe_int_derefecing(int * ptr);
+
 
 #endif //MYSTANDEREDLIBRARY_ERRORCOES_H

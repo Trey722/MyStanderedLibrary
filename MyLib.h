@@ -1,5 +1,5 @@
 //
-// Created by Trey Davidson on 11/4/23.
+//
 //
 
 #ifndef MYSTANDEREDLIBRARY_MYLIB_H

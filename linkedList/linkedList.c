@@ -91,23 +91,3 @@ void printListKeys(LinkedList * list)
     }
 }
 
-int main(void)
-{
-    LinkedList * list = initLinkedList();
-
-    insertLinkedList(10, NULL, list);
-
-    insertLinkedList(5, NULL, list);
-
-    insertLinkedList(50, NULL, list);
-
-    insertLinkedList(60, NULL, list);
-
-    insertLinkedList(70, NULL, list);
-
-    insertLinkedList(3, NULL, list);
-
-    insertLinkedList(2, NULL, list);
-
-    printListKeys(list);
-}
