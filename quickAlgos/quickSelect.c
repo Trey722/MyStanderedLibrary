@@ -6,12 +6,19 @@
 
 #include "../vector/intVector.c"
 
+#include "../generalVector/generalPurposeDynamicArray.c"
+
 #include "../random/randomInt.c"
 
 
 typedef dynamicArrayforInt intVector;
 
-int arrayPartitation(int *array, int l, int h, int index) {
+typedef int (*ComparisonFunction)(const void*, const void*);
+
+
+
+int arrayPartitation(int * array, int l, int h, int index)
+{
    intVector * lower = initIntVector();
 
    intVector * higher = initIntVector();
@@ -87,7 +94,6 @@ void quickSort(int * array, int l, int h)
     return;
 
 }
-
 
 
 

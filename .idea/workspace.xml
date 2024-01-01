@@ -9,12 +9,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d789ef-5f0b-4908-98e1-b2b8c41048a5" name="Changes" comment="Test1">
+    <list default="true" id="e6d789ef-5f0b-4908-98e1-b2b8c41048a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BST/BST.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BST/BST.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickAlgos/quickSelect.c" beforeDir="false" afterPath="$PROJECT_DIR$/quickAlgos/quickSelect.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickSelect" beforeDir="false" afterPath="$PROJECT_DIR$/quickSelect" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/DWARF/quickSelect" beforeDir="false" afterPath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/DWARF/quickSelect" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/Relocations/aarch64/quickSelect.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quickSelect.dSYM/Contents/Resources/Relocations/aarch64/quickSelect.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/MyLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errorCodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/errorCodes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryimports.h" beforeDir="false" afterPath="$PROJECT_DIR$/libraryimports.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/linkedList.c" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/linkedList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort/mergeSort.c" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort/mergeSort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort/mergeSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort/mergeSort.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +65,21 @@
       <recent name="$PROJECT_DIR$/generalArray" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.quickSelect.c (1)">
-    <configuration name="generalArray.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyStanderedLibrary" TARGET_NAME="generalArray.c" CONFIG_NAME="generalArray.c">
-      <option name="sourceFile" value="generalArray.c" />
+  <component name="RunManager" selected="C/C++ File.linkedList.c">
+    <configuration name="kdTree.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyStanderedLibrary" TARGET_NAME="kdTree.c" CONFIG_NAME="kdTree.c">
+      <option name="sourceFile" value="genericKDTree/kdTree.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kdTree.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyStanderedLibrary" TARGET_NAME="kdTree.c" CONFIG_NAME="kdTree.c">
-      <option name="sourceFile" value="genericKDTree/kdTree.c" />
+    <configuration name="linkedList.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyStanderedLibrary" TARGET_NAME="linkedList.c" CONFIG_NAME="linkedList.c">
+      <option name="sourceFile" value="linkedList/linkedList.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="medianOfMedians.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyStanderedLibrary" TARGET_NAME="medianOfMedians.c" CONFIG_NAME="medianOfMedians.c">
+      <option name="sourceFile" value="Stats/medianOfMedians.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -86,19 +96,20 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyStanderedLibrary" TARGET_NAME="test.c" CONFIG_NAME="test.c">
-      <option name="sourceFile" value="test.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.linkedList.c" />
+      <item itemvalue="C/C++ File.kdTree.c" />
+      <item itemvalue="C/C++ File.medianOfMedians.c" />
+      <item itemvalue="C/C++ File.quickSelect.c" />
+      <item itemvalue="C/C++ File.quickSelect.c (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.linkedList.c" />
+        <item itemvalue="C/C++ File.medianOfMedians.c" />
         <item itemvalue="C/C++ File.quickSelect.c (1)" />
         <item itemvalue="C/C++ File.quickSelect.c" />
         <item itemvalue="C/C++ File.kdTree.c" />
-        <item itemvalue="C/C++ File.test.c" />
-        <item itemvalue="C/C++ File.generalArray.c" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +136,15 @@
       <workItem from="1699332136752" duration="2007000" />
       <workItem from="1699372814862" duration="86000" />
       <workItem from="1699373826982" duration="207000" />
-      <workItem from="1699379553563" duration="560000" />
+      <workItem from="1699379553563" duration="978000" />
+      <workItem from="1699380588493" duration="259000" />
+      <workItem from="1699442741278" duration="680000" />
+      <workItem from="1699460138301" duration="3992000" />
+      <workItem from="1699586073799" duration="334000" />
+      <workItem from="1699586471846" duration="2046000" />
+      <workItem from="1701104890853" duration="631000" />
+      <workItem from="1703738313464" duration="1050000" />
+      <workItem from="1703739370031" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Test1">
       <option name="closed" value="true" />

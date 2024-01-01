@@ -1,5 +1,5 @@
 //
-// Created by Trey Davidson on 11/4/23.
+//
 //
 
 #ifndef MYSTANDEREDLIBRARY_MYLIB_H
@@ -88,6 +88,12 @@ int quickSelect(int *array, int l, int h, int K);
 int generateRandomNumberInt(int min, int max);
 
 int * generateRandomArrayofInts(int min, int max, int size);
+
+/* Efficent Stats finds */
+
+#include "Stats/medianOfMedians.c"
+
+int * findMedianWithMaxSize5(int * array, int size);
 
 
 #endif //MYSTANDEREDLIBRARY_MYLIB_H
